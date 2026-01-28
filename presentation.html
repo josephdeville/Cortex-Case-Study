@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortex GTM Engineer Case Study</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <style>
+        :root {
+            --r-background-color: #0a0a0a;
+            --r-main-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --r-heading-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --r-main-color: #e8e8e8;
+            --r-heading-color: #ffffff;
+            --r-link-color: #6366f1;
+        }
+        .reveal { font-size: 32px; }
+        .reveal h1 { font-size: 2.2em; font-weight: 700; }
+        .reveal h2 { font-size: 1.6em; font-weight: 600; color: #a5b4fc; }
+        .reveal h3 { font-size: 1.2em; font-weight: 500; color: #818cf8; }
+        .reveal .subtitle { color: #9ca3af; font-size: 0.9em; margin-top: -20px; }
+        .reveal .highlight { color: #6366f1; font-weight: 600; }
+        .reveal .stat { font-size: 2.5em; font-weight: 700; color: #6366f1; }
+        .reveal .stat-label { font-size: 0.6em; color: #9ca3af; }
+        .reveal table { margin: 0 auto; font-size: 0.7em; border-collapse: collapse; }
+        .reveal th { background: #1f2937; padding: 12px 20px; }
+        .reveal td { padding: 10px 20px; border-bottom: 1px solid #374151; }
+        .reveal .box { background: #1f2937; border-radius: 12px; padding: 24px; margin: 16px 0; }
+        .reveal .box-title { color: #6366f1; font-weight: 600; margin-bottom: 12px; }
+        .reveal ul { list-style: none; padding-left: 0; }
+        .reveal li { margin: 12px 0; padding-left: 24px; position: relative; }
+        .reveal li::before { content: ""; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: #6366f1; border-radius: 50%; }
+        .reveal .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; text-align: left; }
+        .reveal .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; text-align: center; }
+        .reveal .diagram { background: #111827; border: 1px solid #374151; border-radius: 8px; padding: 20px; font-family: monospace; font-size: 0.6em; white-space: pre; line-height: 1.4; }
+        .reveal .quote { font-style: italic; color: #9ca3af; border-left: 4px solid #6366f1; padding-left: 20px; margin: 20px 0; }
+        .reveal .section-title { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .reveal .part-indicator { font-size: 0.5em; color: #6366f1; text-transform: uppercase; letter-spacing: 2px; }
+        .slide-number { color: #6366f1 !important; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- TITLE SLIDE -->
+            <section>
+                <h1>Trigger-Based Signal Engine</h1>
+                <p class="subtitle">GTM Engineer Case Study</p>
+                <br><br>
+                <p style="color: #6b7280; font-size: 0.7em;">Joseph DeVille</p>
+            </section>
+
+            <!-- AGENDA -->
+            <section>
+                <h2>Agenda</h2>
+                <div class="three-col" style="margin-top: 40px;">
+                    <div class="box">
+                        <div class="box-title">Part 1</div>
+                        <p style="font-size: 0.8em;">Research & Preparation</p>
+                        <p style="color: #6b7280; font-size: 0.6em;">~5 minutes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-title">Part 2</div>
+                        <p style="font-size: 0.8em;">The Problem & Solution</p>
+                        <p style="color: #6b7280; font-size: 0.6em;">~12 minutes</p>
+                    </div>
+                    <div class="box">
+                        <div class="box-title">Part 3</div>
+                        <p style="font-size: 0.8em;">V2 Roadmap</p>
+                        <p style="color: #6b7280; font-size: 0.6em;">~3 minutes</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PART 1: RESEARCH -->
+            <section>
+                <section>
+                    <p class="part-indicator">Part 1</p>
+                    <h1 class="section-title">Research & Preparation</h1>
+                </section>
+
+                <section>
+                    <h2>Research Approach</h2>
+                    <div class="two-col" style="font-size: 0.8em;">
+                        <div>
+                            <h3>Product & Market</h3>
+                            <ul>
+                                <li>Cortex website & docs</li>
+                                <li>G2 reviews & comparisons</li>
+                                <li>Competitor positioning</li>
+                                <li>Customer case studies</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Company Intel</h3>
+                            <ul>
+                                <li>LinkedIn team analysis</li>
+                                <li>Funding & investor research</li>
+                                <li>Recent messaging themes</li>
+                                <li>Job posting signals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>What I Learned About Cortex</h2>
+                    <div class="three-col" style="margin-top: 30px;">
+                        <div>
+                            <div class="stat">78</div>
+                            <div class="stat-label">Employees<br>(lean & efficient)</div>
+                        </div>
+                        <div>
+                            <div class="stat">$60M</div>
+                            <div class="stat-label">Series C<br>(Sep 2024)</div>
+                        </div>
+                        <div>
+                            <div class="stat">20</div>
+                            <div class="stat-label">GTM Team<br>(Sales + Marketing)</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 40px; color: #9ca3af; font-size: 0.7em;">
+                        GTM Engineer = force multiplier for a lean team
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Your Existing Stack</h2>
+                    <table>
+                        <tr>
+                            <th>Category</th>
+                            <th>Tool</th>
+                            <th>My Experience</th>
+                        </tr>
+                        <tr>
+                            <td>CRM</td>
+                            <td><span class="highlight">Salesforce</span></td>
+                            <td>Flows, reporting, routing</td>
+                        </tr>
+                        <tr>
+                            <td>Marketing Automation</td>
+                            <td><span class="highlight">Marketo</span></td>
+                            <td>Programs, scoring, nurture</td>
+                        </tr>
+                        <tr>
+                            <td>Data Enrichment</td>
+                            <td><span class="highlight">Clay</span></td>
+                            <td>Tables, enrichment, AI</td>
+                        </tr>
+                        <tr>
+                            <td>Automation</td>
+                            <td><span class="highlight">Zapier</span></td>
+                            <td>Multi-step workflows</td>
+                        </tr>
+                    </table>
+                    <p style="margin-top: 30px; font-size: 0.7em; color: #9ca3af;">
+                        Philosophy: Build on what exists. No new tools in Week 1.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Competitive Landscape</h2>
+                    <table style="font-size: 0.65em;">
+                        <tr>
+                            <th>Competitor</th>
+                            <th>Their Angle</th>
+                            <th>Cortex Counter</th>
+                        </tr>
+                        <tr>
+                            <td>Backstage</td>
+                            <td>Free, open-source</td>
+                            <td>"You'll need 2 FTE to maintain it"</td>
+                        </tr>
+                        <tr>
+                            <td>OpsLevel</td>
+                            <td>Fast setup, lower price</td>
+                            <td>Deeper features at scale</td>
+                        </tr>
+                        <tr>
+                            <td>Port.io</td>
+                            <td>No-code flexibility</td>
+                            <td>Opinionated best practices</td>
+                        </tr>
+                        <tr>
+                            <td>DX</td>
+                            <td>DevEx metrics focus</td>
+                            <td>Full portal vs point solution</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>Key Assumptions</h2>
+                    <ul style="font-size: 0.85em;">
+                        <li><span class="highlight">CRM data exists</span> to backtest signal hypotheses</li>
+                        <li><span class="highlight">Quality > Volume</span> with 14 sales reps</li>
+                        <li><span class="highlight">Cross-functional buy-in</span> from DemandGen & RevOps</li>
+                        <li><span class="highlight">Clay is operational</span> and ready to build on</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- PART 2: PROBLEM & SOLUTION -->
+            <section>
+                <section>
+                    <p class="part-indicator">Part 2</p>
+                    <h1 class="section-title">The Problem & Solution</h1>
+                </section>
+
+                <section>
+                    <h2>The Core Problem</h2>
+                    <div class="quote" style="font-size: 1.1em;">
+                        Most pipeline problems stem from targeting companies<br>
+                        <span class="highlight">too early</span> (not ready) or <span class="highlight">too late</span> (already bought).
+                    </div>
+                    <br>
+                    <ul style="font-size: 0.8em;">
+                        <li>SDRs prospect based on static ICP criteria</li>
+                        <li>No systematic way to identify <em>when</em> a company is ready</li>
+                        <li>Win rates suffer, cycles lengthen, forecasts miss</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>My Hypothesis</h2>
+                    <div class="box" style="text-align: center; font-size: 1.2em;">
+                        <span class="highlight">Timing</span> is the primary constraint.
+                        <br><br>
+                        <span style="color: #9ca3af; font-size: 0.7em;">
+                            The ICP is clear. The product is strong.<br>
+                            What's missing: knowing <em>when</em> a company moves from "interesting" to "ready."
+                        </span>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Systems Thinking</h2>
+                    <div class="diagram">
+┌─────────────────────────────────────────────────────────────────────┐
+│                         GTM SYSTEM                                   │
+│                                                                      │
+│   MARKET ──▶ LEADS ──▶ PIPELINE ──▶ DEALS ──▶ ARR                  │
+│     │          │          │           │         │                    │
+│     ▼          ▼          ▼           ▼         ▼                    │
+│   Signal     Lead       Stage       Win      Expansion               │
+│   Detection  Scoring    Velocity    Rate     Signals                 │
+│     ▲                                                                │
+│     │                                                                │
+│   START HERE - Upstream leverage compounds                           │
+└─────────────────────────────────────────────────────────────────────┘
+                    </div>
+                </section>
+
+                <section>
+                    <h2>The Solution</h2>
+                    <h1 style="margin-top: 40px;">Trigger-Based<br>Signal Engine</h1>
+                    <p style="color: #9ca3af; margin-top: 30px;">
+                        Identify companies at the moment they're most likely to need Cortex
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Signal Categories</h2>
+                    <div class="two-col" style="font-size: 0.75em;">
+                        <div class="box">
+                            <div class="box-title">1. Hiring Signals (Strongest)</div>
+                            <ul>
+                                <li>Platform Engineer roles posted</li>
+                                <li>"Developer Experience" in titles</li>
+                                <li>SRE hiring surge</li>
+                                <li>VP/Director of Platform role</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <div class="box-title">2. Technographic Signals</div>
+                            <ul>
+                                <li>Kubernetes adoption</li>
+                                <li>Multiple observability tools</li>
+                                <li>CI/CD complexity</li>
+                                <li>Service mesh (Istio, Linkerd)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="two-col" style="font-size: 0.75em; margin-top: 20px;">
+                        <div class="box">
+                            <div class="box-title">3. Organizational Signals</div>
+                            <ul>
+                                <li>Eng headcount growth >20%</li>
+                                <li>Series C+ funding</li>
+                                <li>New CTO/VP Eng hired</li>
+                                <li>Acquisition announced</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <div class="box-title">4. Pain Signals</div>
+                            <ul>
+                                <li>Incident/outage in news</li>
+                                <li>Glassdoor: "tech debt"</li>
+                                <li>Blog: "microservice challenges"</li>
+                                <li>Compliance audit issues</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Why Hiring Signals Are Strongest</h2>
+                    <div class="quote">
+                        A company researching "developer portals" might be curious.<br>
+                        A company <span class="highlight">hiring Platform Engineers</span> is building one.
+                    </div>
+                    <br>
+                    <p style="font-size: 0.8em; color: #9ca3af;">
+                        Job postings = budget allocation, not just interest.<br>
+                        This is the signal with the highest intent.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Scoring Model</h2>
+                    <div class="diagram" style="font-size: 0.55em;">
+ACCOUNT SCORE = Signal Weight × Recency Factor × ICP Fit
+
+Signal Weights:                    Recency Factor:
+├─ Platform Engineer posted: +30   ├─ Last 30 days:  1.5x
+├─ VP/Dir Platform hired:    +25   ├─ 31-60 days:    1.0x
+├─ >20% eng growth:          +20   ├─ 61-90 days:    0.5x
+├─ Kubernetes in stack:      +15   └─ >90 days:      0.25x
+├─ Recent funding (C+):      +15
+├─ Incident in news:         +20   ICP Gates (Required):
+└─ New CTO/VPE:              +15   ├─ 1,000+ employees
+                                   └─ 100+ engineers
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Example: Scored Account</h2>
+                    <div class="box" style="text-align: left; font-size: 0.8em;">
+                        <div class="box-title">FinTech Corp</div>
+                        <p>2,500 employees, 400 engineers ✓</p>
+                        <table style="font-size: 0.85em;">
+                            <tr><td>3 Platform Engineer roles (14 days ago)</td><td style="text-align: right;">+30 × 1.5 = <span class="highlight">45</span></td></tr>
+                            <tr><td>Kubernetes detected in job posts</td><td style="text-align: right;"><span class="highlight">+15</span></td></tr>
+                            <tr><td>Series D funding (6 months ago)</td><td style="text-align: right;">+15 × 0.5 = <span class="highlight">7.5</span></td></tr>
+                            <tr><td>New VP Engineering (2 months ago)</td><td style="text-align: right;"><span class="highlight">+15</span></td></tr>
+                            <tr><td>Financial Services industry</td><td style="text-align: right;"><span class="highlight">+10</span></td></tr>
+                        </table>
+                        <p style="text-align: right; font-size: 1.2em; margin-top: 20px;">
+                            Total: <span class="stat" style="font-size: 1.5em;">92.5</span> → High Priority
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Workflow Integration</h2>
+                    <div class="diagram">
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Signal Sources │────▶│   Clay Table    │────▶│   Salesforce    │
+│                 │     │                 │     │                 │
+│ • LinkedIn      │     │ • Enrichment    │     │ • Account field │
+│ • Job boards    │     │ • Scoring       │     │ • SDR alert     │
+│ • Technographics│     │ • Threshold     │     │ • Context card  │
+│ • News/funding  │     │                 │     │                 │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Quick Wins vs Strategic Bets</h2>
+                    <table style="font-size: 0.65em;">
+                        <tr>
+                            <th>Timeline</th>
+                            <th>Initiative</th>
+                            <th>Impact</th>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Week 1-2</span></td>
+                            <td>Job posting monitor in Clay</td>
+                            <td>Immediate signal detection</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Week 1-2</span></td>
+                            <td>New VPE/CTO alerts</td>
+                            <td>Budget holder changes</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Week 1-2</span></td>
+                            <td>SDR signal playbook</td>
+                            <td>5 templates tied to signals</td>
+                        </tr>
+                        <tr>
+                            <td>Month 1-2</td>
+                            <td>Technographic layer</td>
+                            <td>Stack-based scoring</td>
+                        </tr>
+                        <tr>
+                            <td>Month 1-2</td>
+                            <td>Historical backtest</td>
+                            <td>Validate & refine weights</td>
+                        </tr>
+                        <tr>
+                            <td>Quarter 1-2</td>
+                            <td>Competitive displacement</td>
+                            <td>Catch unhappy Backstage users</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>How This Supports the Mandate</h2>
+                    <div class="three-col" style="margin-top: 40px;">
+                        <div class="box">
+                            <div class="box-title">Increase Pipeline</div>
+                            <p style="font-size: 0.75em;">New accounts surfaced that weren't on radar</p>
+                        </div>
+                        <div class="box">
+                            <div class="box-title">Improve Quality</div>
+                            <p style="font-size: 0.75em;">Only accounts showing active signals enter</p>
+                        </div>
+                        <div class="box">
+                            <div class="box-title">Late-Stage ARR</div>
+                            <p style="font-size: 0.75em;">Better early leads = predictable conversion</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Success Metrics</h2>
+                    <table>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Baseline</th>
+                            <th>Target</th>
+                        </tr>
+                        <tr>
+                            <td>Lead-to-Qualified rate</td>
+                            <td>15%</td>
+                            <td><span class="highlight">30%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Stage 1→2 conversion</td>
+                            <td>40%</td>
+                            <td><span class="highlight">55%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Average deal cycle</td>
+                            <td>90 days</td>
+                            <td><span class="highlight">70 days</span></td>
+                        </tr>
+                        <tr>
+                            <td>Pipeline coverage</td>
+                            <td>3x</td>
+                            <td><span class="highlight">4x</span> (with better quality)</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+
+            <!-- PART 3: V2 ROADMAP -->
+            <section>
+                <section>
+                    <p class="part-indicator">Part 3</p>
+                    <h1 class="section-title">V2 Roadmap</h1>
+                </section>
+
+                <section>
+                    <h2>With 2 More Weeks...</h2>
+                    <div class="two-col" style="font-size: 0.8em;">
+                        <div class="box">
+                            <div class="box-title">Week 1: Validate</div>
+                            <ul>
+                                <li>Backtest against 12 months of closed-won</li>
+                                <li>Which signals correlated strongest?</li>
+                                <li>Refine weights with real data</li>
+                                <li>A/B test signal-sourced vs traditional</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <div class="box-title">Week 2: Expand</div>
+                            <ul>
+                                <li>Add competitive displacement signals</li>
+                                <li>Build SDR enablement layer</li>
+                                <li>Automate weekly digest</li>
+                                <li>CRM integration for signal history</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Bigger Bet: Competitive Displacement</h2>
+                    <div class="box" style="font-size: 0.8em;">
+                        <div class="box-title">The Opportunity</div>
+                        <p>Companies that chose Backstage 12-18 months ago are feeling maintenance pain.</p>
+                        <p>They've already budget-approved the category. We're the upgrade path.</p>
+                    </div>
+                    <br>
+                    <div style="font-size: 0.75em;">
+                        <strong>Signals:</strong> "Backstage" in job posts, Glassdoor complaints, new Platform Lead hired
+                    </div>
+                </section>
+
+                <section>
+                    <h2>What I'd Ask Day 1</h2>
+                    <div class="quote" style="font-size: 0.9em;">
+                        "Can I see the last 50 closed-won and closed-lost deals?<br>
+                        I want to validate my signal hypotheses against real data."
+                    </div>
+                </section>
+            </section>
+
+            <!-- CLOSING -->
+            <section>
+                <section>
+                    <h1>Summary</h1>
+                    <ul style="font-size: 0.9em;">
+                        <li><span class="highlight">Project:</span> Trigger-Based Signal Engine</li>
+                        <li><span class="highlight">Why:</span> Timing is the leverage point</li>
+                        <li><span class="highlight">How:</span> Build on Clay/SFDC/Marketo stack</li>
+                        <li><span class="highlight">Quick win:</span> Job signal detection in Week 1</li>
+                        <li><span class="highlight">Proof:</span> Backtest against historical data</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Thank You</h1>
+                    <p style="color: #9ca3af; margin-top: 40px;">Questions?</p>
+                </section>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            showSlideNumber: 'all',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            center: true,
+            progress: true,
+            controls: true,
+            controlsTutorial: false,
+            keyboard: true,
+            overview: true,
+            touch: true,
+            loop: false,
+            rtl: false,
+            shuffle: false,
+            fragments: true,
+            embedded: false,
+            help: true,
+            showNotes: false,
+            autoPlayMedia: null,
+            preloadIframes: null,
+            autoAnimate: true,
+            autoAnimateMatcher: null,
+            autoAnimateEasing: 'ease',
+            autoAnimateDuration: 1.0,
+            autoAnimateUnmatched: true,
+            autoSlide: 0,
+            mouseWheel: false,
+            hideInactiveCursor: true,
+            hideCursorTime: 3000
+        });
+    </script>
+</body>
+</html>
