@@ -1,0 +1,81 @@
+1/23/2026, 5:30:58 PM
+Hey there. Doing well. How are you?
+
+1/23/2026, 5:31:02 PM
+Where are you calling in from today?
+
+1/23/2026, 5:31:11 PM
+Nice. Cool. Well, thanks so much for taking the time. I'm excited to chat.
+
+1/23/2026, 5:31:20 PM
+Maybe just to kick off if you wanna start give me a little bit about your background and your experience up to
+
+1/23/2026, 5:31:23 PM
+give me a little bit about your background and your experience up to this point.
+
+1/23/2026, 5:33:01 PM
+Awesome. So when you think about work, what are the things that you know, get you really excited, motivated, ready to go every day? Like, what how would you describe sort of the the attributes or things that you are really motivated by?
+
+1/23/2026, 5:34:03 PM
+Got it. So on the topic of of impact, right, can you talk me through one of the projects that you've done or an automation that you made that you would say has has had the biggest impact? The company that you were working for?
+
+1/23/2026, 5:35:30 PM
+So And how was the scoring done?
+
+1/23/2026, 5:37:17 PM
+Got it. That makes sense. So when you when you rolled that out, how are you thinking about success? Like, what was your your way of determining of whether it was actually a good thing or a bad thing? Talk me through that.
+
+1/23/2026, 5:39:10 PM
+Got it. Okay. That makes sense. So let's say you were to join a company, could be Cortex or anywhere, and they said, we want to under
+
+1/23/2026, 5:39:26 PM
+understand how well our sales funnel is is operating. And they're like, we'll give you whatever data you may need. You can talk to whoever you wanna talk to. How would you sort of approach that vague just request?
+
+1/23/2026, 5:40:57 PM
+Okay. No. That makes sense. And then let's say after diving into the data, you see that there's an issue or a a big drop off from one stage to another. Then what what would be your next step of sort of figuring out what's next?
+
+1/23/2026, 5:41:00 PM
+figuring out what's next?
+
+1/23/2026, 5:42:08 PM
+Got it. And have you have you done anything like this before where you've noticed you know, an issue in the cycle? You've dive you dove into the details and up with an hypothesis and, like, then actually did something about it.
+
+1/23/2026, 5:44:11 PM
+Got it. Got it. And how much have you experimented with, like, any of the emerging AI tools? Like, there's feel like every day there's something exciting, like, Cloud Code and, like, you see people doing crazy stuff with it. Like, how how in tact have you been with all the, recent developments?
+
+1/23/2026, 5:46:46 PM
+Nice. What's the coolest thing you've done with Cloud Code?
+
+1/23/2026, 5:47:18 PM
+Nice. That's awesome. Cool. That's those are all the questions I had. What what's top of mind for you? What can I answer?
+
+1/23/2026, 5:48:24 PM
+Yeah. We've almost done zero outbound which is crazy that we've gotten so far without it I think it's obviously, we wanna go after high intent accounts or accounts that we think could be good fits and be, like, deliberate So we're not just shooting in the dark. So I think that's sort of, like, the fundamental piece. But more more than that, I'd like to be more creative. Like, I feel like all of these SAS tools doing sort of the same stuff, and it's like, it's boring, and it's getting lost in the noise. I'd like Cortex to take some some big swings and experiment with a lot of different new ideas and sort of stand out a little bit. I think that would be really cool.
+
+1/23/2026, 5:48:47 PM
+Yeah. We have zero PLG.
+
+1/23/2026, 5:49:39 PM
+Yeah. No. No. No. It's, it's all sales driven because the onboarding process is quite intensive because the way KoreTek works is we integrate with the entire engineering ecosystem. So customers need to set up all the APIs and connections, and it's, like, quite technical. So they don't usually just buy. There's gonna be, like, an evaluation process where they test it out, And, like, our average sale is quite large. It's over a 100,000 a year. So it's it's not just, like, swipe my credit card and buy. It's, like, I'm I'm gonna think about this. I'm gonna get a lot of buy in. I'm gonna we have a a couple customers over a million a year. So it's like, it's not such a you know, impulsive purchase.
+
+1/23/2026, 5:50:31 PM
+Yeah. I think it's repeatability. Like, we've we have a lot of amazing customers, and we're growing well. But I don't think we've really locked in what what what works at scale versus what just sort of works. And it's been okay because our growth has still worked. I think for us to get to the next level, I wanna be really thoughtful on, like, hey. We know these channels are way more effective. Or we know if we use this messaging where, you know, we convert much higher. Sort of, like, pour fuel on the fire for what works and stop doing what maybe doesn't work as well.
+
+1/23/2026, 5:52:25 PM
+Yeah. So against Backstage, it's it's really simple. Backstage is open source. Build it yourself. So the store is like, hey. If you wanna play around with Backstage and get a 10 engineers for years to build out half of the functionality that Cortex has, go ahead. And some companies will will want to do that if they're you know, builders in nature. But I think what we often see is when companies go that route, they eventually come back We have so many customers who tried on backstage. They didn't see value or taking way too long. And then they come back. And I think the the easiest way to explain it is, like, I if you're I don't know. Netflix. Do you want your engineers spending time building an internal developer portal? Or do you want your engineers building better functionality for Netflix? Right? And you can say that for any company, and that's why Netflix, as an example, is a customer of Cortex even though they typically do build their own software. Against the other commercial players, we just have the biggest leg up. So we've been around the longest. This category didn't exist before Cortex. Our founders sort of came up with this from their lived pain points that they experienced as engineers. I think that's sort of our differentiation. In the space.
+
+1/23/2026, 5:52:29 PM
+That's right.
+
+1/23/2026, 5:53:22 PM
+It's probably counterintuitive, but I would say to not take things too seriously. Because there's especially in the start up world, there's always gonna be highs and lows. Things are gonna look like they're terrible for a little while, then they're gonna look like they're amazing for a little while. And, like, I think nothing is ever as good as or as bad as it seems. So just enjoy the ride.
+
+1/23/2026, 5:53:48 PM
+I love that.
+
+1/23/2026, 5:55:46 PM
+Awesome. Well, it was great chatting with you, Joseph. I hope you have an awesome weekend, and, keep on tinkering with Cloud Code. I'm excited to see what everyone's doing. It blows my mind these days.
+
+1/23/2026, 5:55:50 PM
+Have a good one. Bye.
+
